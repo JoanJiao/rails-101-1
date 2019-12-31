@@ -30,6 +30,7 @@ class GroupsController < ApplicationController
       redirect_to groups_path, notice: "Update Success!"
     else
       render :new
+    end
   end
 
   def destroy
